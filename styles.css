@@ -30,7 +30,7 @@ li {
 
 a {
   padding-right: 30px;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -68,7 +68,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 section {
