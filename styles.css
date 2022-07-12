@@ -3,13 +3,14 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 12px;
+  padding: 12px 0;
   background-color: #c0fdfe;
 }
 
@@ -37,11 +38,14 @@ a {
 h1,
 h2 {
   font-size: 60px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 p {
   font-size: 24px;
   font-weight: 500;
+  padding-bottom: 20px;
 }
 
 button {
@@ -51,6 +55,11 @@ button {
   font-size: 24px;
   color: white;
   border: none;
+  border-radius: 7.5px;
+}
+
+button:hover {
+  background-color: #0d47a1;
 }
 
 .nav-links {
@@ -77,11 +86,22 @@ section {
   padding: 50px;
 }
 
-.about {
+.section__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure {
+  padding: 0 24px;
+}
+
+#about {
   background-color: #f8ffd7;
 }
 
-.discord {
+
+#discord {
   background-color: #c8fdff;
 }
 
@@ -89,7 +109,7 @@ section {
   height: 400px;
 }
 
-.contact {
+#contact {
   background-color: #d7e6ff;
   display: flex;
   padding: 50px;
@@ -98,7 +118,6 @@ section {
 form {
   display: flex;
   flex-direction: column;
-  padding-top: 24px;
 }
 
 footer {
@@ -112,5 +131,5 @@ footer {
 .footer-links {
   color: blue;
   text-decoration: none;
-  padding-left: 25px;
+  padding: 25px;
 }
